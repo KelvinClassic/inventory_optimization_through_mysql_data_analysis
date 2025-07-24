@@ -28,7 +28,7 @@ BEGIN
 		SELECT 
 			product_id,
 			AVG(daily_sales) OVER(PARTITION BY product_id ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rolling_avg_sales,
-			AVG(daily_sales) OVER(PARTITION BY product_id ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rolling_variance
+			AVG(squared) OVER(PARTITION BY product_id ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rolling_variance
 		FROM (
 			SELECT 
 				product_id,

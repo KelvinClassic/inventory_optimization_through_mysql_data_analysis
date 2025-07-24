@@ -1,9 +1,10 @@
 -- General Insights:
 
-	-- Inventory Discrepancies: The initial stages of the analysis revealed significant discrepancies in inventory levels, with instances of both overstocking and understanding.
+	-- Inventory Discrepancies: The initial stages of the analysis revealed significant discrepancies in inventory levels, with instances of 
+  -- both overstocking and understanding.
 		-- These inconsistencies were contributing to capital inefficiencies and customer dissatisfaction.
     
-    -- Sales Trends and External Influences: The analysis indicated thate sales trends were notably influenced by various external factors.
+    -- Sales Trends and External Influences: The analysis indicated that sales trends were notably influenced by various external factors.
 		-- Recognizing these patterns provides an opportunity to forecast demand more accurately.
     
     -- Suboptimal Inventory Levels: Through the inventory optimization analysis, it was evident that the existing inventory levels were not optimized for current sales trends.
